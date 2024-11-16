@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPLOYEE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  
+</head>
+
+<body>
+    <section >
+        <div class="navbar-toggler">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#">
+                        <img src="img/yamee_logo-removebg-preview.png" alt="yameecluster">
+                    </a>
+                </div>
+                <ul class="navbar-menu">
+                    <li><a href="login.html" class="nav-link">Login</a></li>
+                    <li><a href="rigister.html" class="nav-link">Register</a></li>
+                    <li><a href="admin.html" class="nav-link">Admin</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+
+    <section class="main-container">
+        <div class="container-2">
+            <img src="img/img4.webp" alt="">
+        </div> 
+        
+        <div class="container-1">
+            <h2><i class='bx bx-group'></i>EMPLOYEE REGISTER</h2>
+            <form action="#">
+
+                <div class="form-group">
+                    <label for="name">Employee Name:</label>
+                    <input type="text" class="form-control uppercase-input no-numbers-input" id="fullname"
+                        name="full name" placeholder=" Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="number">Phone Number:</label>
+                    <input type="tel" id="number" name="number" maxlength="10" fdprocessedid="qnqix" placeholder="Enter You number">
+                </div>
+                <div class="form-group">
+                    <label for="age">DOB:</label>
+                    <input type="date" id="age" name="age" placeholder=" Enter your age"  required>
+                </div>
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <div class="Male">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label
+                        for="gmail">Gmail:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</label>
+                    <input type="email" id="gmail" name="gmail" placeholder=" Enter your Gmail" required>
+                </div>
+                <div class="form-group">
+                    <label>Education:</label>
+                    <select name="skils" id="skils" class="Male">
+                        <option value="html">Bca</option>
+                        <option value="html">Bsc</option>
+                        <option value="html">MCA</option>
+                        <option value="html">Msc</option>
+                        <option value="html">Mba</option>
+                        <option value="html">Mcom</option>
+                    </select>
+                </div>
+               
+                
+                <div class="form-group">
+                    <label for="select">skils</label>
+                    <div class="Male">
+                        <input type="checkbox" id="html" name="html" value="skils">
+                        <label for="HTML">HTML</label>
+                        <input type="checkbox" id="css" name="css" value="skils">
+                        <label for="CSS">CSS</label>
+                        <input type="checkbox" id="js" name="js" value="skils">
+                        <label for="JS">JS</label>
+                        <input type="checkbox" id="php" name="php" value="skils">
+                        <label for="PHP">PHP</label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="designation">Designation:</label>
+                    <input type="text" class="form-control uppercase-input no-numbers-input" id="Designation"
+                        name="Designation" placeholder=" Enter your Designation" required>                    
+                </div>
+                <div class="form-group">
+                    <label for="Salary">Salary CTC:</label>
+                    <input type="tel" id="Salary" name="Salary" maxlength="7" placeholder=" Enter your Salary" fdprocessedid="qnqix" >
+                </div>
+
+                <div class="form-group">
+                    <label for="Duration">Duration:</label>
+                    <input type="text" class="form-control uppercase-input no-numbers-input" id="Duration"
+                        name="Duration" placeholder="Enter From-To" required>
+                </div>
+                <div class="form-group">
+                    <label for="Aadhar-number">Aadhar Number:</label>
+                    <input type="tel" id="Aadhar-number" name="Aadhar-number" maxlength="12" placeholder=" Enter your Aadhar number only" fdprocessedid="qnqix">
+                </div>
+                <div class="form-group">
+                    <label for="Pan-number">Pan Number:</label>
+                    <input type="tel" id="Pan-number" name="Pan-number" maxlength="10" placeholder=" Enter your Pan number only" fdprocessedid="qnqix">
+                </div>
+                
+                <div class="form-group">
+                    <label for="City">City:</label>
+                    <input type="text" class="form-control uppercase-input no-numbers-input" id="city"
+                        name="city" placeholder="Enter your city" required>
+                </div>
+                <div class="form-group">
+                    <label for="Photo">Photo:</label>
+                    <input type="file" id="photo" name="photo" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="resume">resume:</label>
+                    <input type="file" id="resume" name="resume"  required>
+                </div>
+               
+                <div class="form-group">
+                    <label for="HINT">Hint:</label>
+                    <input type="text" id="hint" name="hint" placeholder="other" required>
+                </div>
+               <br>
+                <button type="submit">sign up</button>
+
+            </form>
+            
+        </div>
+    </section>
+</body>
+
+</html>
